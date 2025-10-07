@@ -10,6 +10,11 @@ app.get('/', (req, res) => {
   res.send('Welcome to the Express Backend!');
 });
 
+app.get('/', (req, res) => {
+    res.send('Welcome to the Express Backend! 2');
+  });
+  
+
 // Start the server
 app.listen(PORT, () => {
   console.log(`Server is running on http://localhost:${PORT}`);
